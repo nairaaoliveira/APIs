@@ -10,13 +10,13 @@ Na API do Vagalume é gratuita e com ela é possivel especificar o artista e a m
 #### Demonstração:
 *Requisição:*
 
-`jQuery.getJSON(
+```jQuery.getJSON(
     "https://www.vagalume.com.br/u2/index.js",
     function (data) {
         // Nome do artista
         alert(data.artist.desc);
     }
-);`
+);```
 
 *Retorno:*
 
