@@ -101,10 +101,13 @@ jQuery.getJSON(
 
 #### Descrição:
 
+O Foursquare é um serviço social de local que permite que os usuários explorem o mundo ao seu redor. A API do Foursquare permite que os desenvolvedores de aplicativos interajam com a plataforma Foursquare dando acesso ao seu banco de dados e fornecendo interação com os usuários e comerciantes da plataforma. 
+
 #### Demonstração:
 *Requisição:*
 
 ```
+#Autenticação do usuário
 Https://foursquare.com/oauth2/authenticate
     ? Client_id = YOUR_CLIENT_ID
     & Response_type = código
