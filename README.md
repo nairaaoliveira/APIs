@@ -132,4 +132,10 @@ Https://foursquare.com/oauth2/access_token
 {Access_token: ACCESS_TOKEN}
 ```
 
+## 3. Vimeo API
+
+#### Descrição:
+
+
+
 
