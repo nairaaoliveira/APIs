@@ -19,7 +19,7 @@ jQuery.getJSON(
 );
 ```
 
-*Retorno:*
+*Resposta:*
 
 ```
 {
@@ -95,5 +95,38 @@ jQuery.getJSON(
                 ]
         }
     }
-}```
+}
+```
+## 2. Foursquare API
+
+#### Descrição:
+
+#### Demonstração:
+*Requisição:*
+
+```
+Https://foursquare.com/oauth2/authenticate
+    ? Client_id = YOUR_CLIENT_ID
+    & Response_type = código
+    & Redirect_uri = YOUR_REGISTERED_REDIRECT_URI
+                  
+#Se o usuário aceitar, eles serão redirecionados de volta para
+    Https: // YOUR_REGISTERED_REDIRECT_URI /? Code = CODE
+                  
+#Seu servidor deve trocar o código que obteve para um token de acesso. Faça um pedido para
+Https://foursquare.com/oauth2/access_token
+    ? Client_id = YOUR_CLIENT_ID
+    & Client_secret = YOUR_CLIENT_SECRET
+    & Grant_type = license_code
+    & Redirect_uri = YOUR_REGISTERED_REDIRECT_URI
+    & Code = CODE
+                  
+```
+
+*Resposta:*
+
+```
+{Access_token: ACCESS_TOKEN}
+```
+
 
