@@ -136,7 +136,7 @@ Https://foursquare.com/oauth2/access_token
 
 #### Descrição:
 
-#### Demonatração:
+#### Demonstração:
 ```
 v = vimeo.VimeoClient(
     key=YOUR_CLIENT_ID,
