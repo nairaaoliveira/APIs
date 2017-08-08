@@ -135,6 +135,7 @@ Https://foursquare.com/oauth2/access_token
 ## 3. Vimeo API
 
 #### Descrição:
+Vimeo API é usada para criar aplicativos usando dados do Vimeo. Ela é gratuita sendo possível fazer upload de vídeos, de imagens e upload descrição de textos além de outras funcionalidades
 
 #### Demonstração:
 ```
