@@ -136,6 +136,17 @@ Https://foursquare.com/oauth2/access_token
 
 #### Descrição:
 
+#### Demonatração:
+```
+v = vimeo.VimeoClient(
+    key=YOUR_CLIENT_ID,
+    secret=YOUR_CLIENT_SECRET)
+
+video_uri = v.upload('your-filename.mp4')
+
+v.patch(video_uri, data={'name': 'Video title', 'description': '...'})
+```
+
 
 
 
